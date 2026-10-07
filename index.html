@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRM de Vendas</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      overflow: hidden; /* Esconde qualquer barra de rolagem extra */
+      height: 100vh;
+      width: 100vw;
+    }
+    
+    .esconder-aviso-google {
+      width: 100%;
+      /* Aumentamos a altura para compensar o que vamos empurrar para cima */
+      height: calc(100% + 36px); 
+      /* Empurra o aplicativo 36 pixels para cima (que é exatamente a altura da barra do Google) */
+      margin-top: -36px; 
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Substitua pelo link real do seu aplicativo do Apps Script -->
+  <iframe 
+    src="https://script.google.com/macros/s/AKfycbzhFceJbtBCqi26fxTXbuvqUKyUmUbHsq_-HqqdivAJhtXV4bVNEdWZYPVaklno3qqo/exec" 
+    class="esconder-aviso-google">
+  </iframe>
+
+</body>
+</html>
